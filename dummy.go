@@ -1,3 +1,4 @@
+//go:build dummy
 // +build dummy
 
 // This file is part of a workaround for `go mod vendor` which won't vendor
@@ -14,12 +15,12 @@
 package main
 
 import (
-	_ "github.com/karalabe/usb/hidapi"
-	_ "github.com/karalabe/usb/hidapi/hidapi"
-	_ "github.com/karalabe/usb/hidapi/libusb"
-	_ "github.com/karalabe/usb/hidapi/mac"
-	_ "github.com/karalabe/usb/hidapi/windows"
-	_ "github.com/karalabe/usb/libusb"
-	_ "github.com/karalabe/usb/libusb/libusb"
-	_ "github.com/karalabe/usb/libusb/libusb/os"
+	_ "github.com/tsachiherman/usb/hidapi"
+	_ "github.com/tsachiherman/usb/hidapi/hidapi"
+	_ "github.com/tsachiherman/usb/hidapi/libusb"
+	_ "github.com/tsachiherman/usb/hidapi/mac"
+	_ "github.com/tsachiherman/usb/hidapi/windows"
+	_ "github.com/tsachiherman/usb/libusb"
+	_ "github.com/tsachiherman/usb/libusb/libusb"
+	_ "github.com/tsachiherman/usb/libusb/libusb/os"
 )
