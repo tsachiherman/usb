@@ -1,3 +1,3 @@
-module github.com/karalabe/usb
+module github.com/tsachiherman/usb
 
-go 1.12
+go 1.20
